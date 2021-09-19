@@ -1,6 +1,8 @@
 ---
 youtubeId: CpHqdSBmGQ0
+layout: default
 ---
+
 
 
 
