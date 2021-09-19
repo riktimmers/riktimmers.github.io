@@ -2,9 +2,11 @@
 layout: default
 ---
 
-{% include youtubePlayer.html id=h9DArHZGUMo %}
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+{% include youtubePlayer.html id=h9DArHZGUMo %}
 
 [Link to another page](./another-page.md).
 
