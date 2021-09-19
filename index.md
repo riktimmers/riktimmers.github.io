@@ -6,7 +6,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-{% include youtubePlayer.html id=yHo5ekZ45Wc %}
+{% include youtubePlayer.html id=page.yHo5ekZ45Wc %}
 
 [Link to another page](./another-page.md).
 
