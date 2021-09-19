@@ -1,10 +1,11 @@
 ---
+youtubeId: CpHqdSBmGQ0
+---
+---
 layout: default
 ---
 
----
-youtubeId: CpHqdSBmGQ0
----
+
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
