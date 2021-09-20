@@ -1,5 +1,7 @@
 ---
-youtubeId: h9DArHZGUMo
+object_recognition: h9DArHZGUMo
+grasping_demo: FecQbV2rejo
+motion_planning_demo: _uUmV0QUoDQ
 layout: default
 ---
 
@@ -9,7 +11,11 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id=page.object_recognition %}
+
+{% include youtubePlayer.html id=page.grasping_demo %}
+
+{% include youtubePlayer.html id=page.motion_planning_demo %}
 
 [Link to another page](./another-page.md).
 
