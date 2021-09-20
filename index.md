@@ -6,9 +6,6 @@ layout: default
 ---
 
 
-
-
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 {% include youtubePlayer.html id=page.object_recognition %}
