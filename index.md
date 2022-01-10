@@ -8,10 +8,12 @@ layout: default
 # Demo Projects 
 This pages shows some demo projects related to robotics.
 
+[Simple Object Recognition](#simple-object-recognition)
+
 
 ## Simple Object Recognition 
 A simple object recognition demo that makes use of PCL to filter object Region of Interests and CNN for classifications. 
-Using Point Cloud data the floor is filtered out and the remaining Point Cloud is clustered, for each cluster the ROI inside the RGB image is determined. The ROI is then resized and classified using a Convolutional Neural Network. This demo can classify 12 objects, the total data gathering and training time took about 20 minutes. For each object 10 images are gathered and the dataset is then augmented. 
+Using Point Cloud data the floor is filtered out and the remaining Point Cloud is clustered, for each cluster the ROI inside the RGB image is determined. The ROI is then resized and classified using a Convolutional Neural Network. This demo can classify 12 objects, the total data gathering and training took about 20 minutes. For each object 10 images are gathered and the dataset is then augmented. 
 
 [Github repository](https://github.com/riktimmers/simple_object_recognition_demo)
 
