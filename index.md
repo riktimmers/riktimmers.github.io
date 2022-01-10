@@ -8,11 +8,11 @@ layout: default
 # Demo Projects 
 This pages shows some demo projects related to robotics.
 
-[Simple Object Recognition](#simple-object-recognition)
-[Simple Grasping](#simple-grasping)
-[Simple Motion Planning](#simple-motion-planning)
-[Simple Planning Demo](#simple-planning-demo)
-[Custom PCL Implementations](#custom-pcl-implementations)
+* [Simple Object Recognition](#simple-object-recognition)
+* [Simple Grasping](#simple-grasping)
+* [Simple Motion Planning](#simple-motion-planning)
+* [Simple Planning Demo](#simple-planning-demo)
+* [Custom PCL Implementations](#custom-pcl-implementations)
 
 
 ## Simple Object Recognition 
