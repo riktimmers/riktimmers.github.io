@@ -21,6 +21,7 @@ A demonstration was done with a mobile manipulator platform (named Alice). Alice
 The software was developed by me and Francesco Bidoia. Francesco developed the software for recognition of the areas to clean on the table and the general behaviour of the robot. I developed all the manipulation and movement of the robot by using Point Cloud data to determine the location of the table such that it can drive along side it. 
 
 Video hosted on Prof. Schomaker YouTube channel:
+
 {% include youtubePlayer.html id=page.alice_demo %}
 
 ## Simple Object Recognition 
