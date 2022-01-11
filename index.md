@@ -20,7 +20,7 @@ This pages shows some demo projects related to robotics.
 A demonstration was done with a mobile manipulator platform (named Alice). Alice was build by the Robotics Team at the University of Groningen. This demonstration was developed for Philips on behalf of Prof. Schomaker. The purpose was to demonstrate the capabilities of basic industrial maintenance tasks like cleaning and tidying up. In this demo the robot had to clean a table, by either removing a paper cup, or sweeping the table clean. A static camera was stationed behind the table to compute the areas that needed to be cleaned. 
 The software was developed by me and Francesco Bidoia. Francesco developed the software for recognition of the areas to clean on the table and the general behaviour of the robot. I developed all the manipulation and movement of the robot by using Point Cloud data to determine the location of the table such that it can drive along side it. 
 
-Video hosted on Prof. Schomaker YouTube channel:
+Video hosted on Prof. Schomaker's YouTube channel:
 
 {% include youtubePlayer.html id=page.alice_demo %}
 
