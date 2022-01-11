@@ -1,8 +1,8 @@
 ---
+alice_demo: EpUChtHsAVo
 object_recognition: h9DArHZGUMo
 grasping_demo: FecQbV2rejo
 motion_planning_demo: _uUmV0QUoDQ
-alice_demo: EpUChtHsAVo
 layout: default
 ---
 
