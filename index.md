@@ -26,7 +26,7 @@ Video hosted on Prof. Schomaker's YouTube channel:
 
 ## Simple Object Recognition 
 A simple object recognition demo that makes use of PCL to filter object Region of Interests and CNN for classifications. 
-Using Point Cloud data the floor is filtered out and the remaining Point Cloud is clustered, for each cluster the ROI inside the RGB image is determined. The ROI is then resized and classified using a Convolutional Neural Network. This demo can classify 12 objects, the total data gathering and training took about 20 minutes. For each object 10 images are gathered and the dataset is then augmented. 
+Using Point Cloud data the floor is filtered out and the remaining Point Cloud is clustered, for each cluster the ROI inside the RGB image is determined. The ROI is then resized and classified using a Convolutional Neural Network. This demo can classify 12 objects, the total data gathering and training took about 20 minutes. For each object 10 images are gathered and the dataset is then augmented. This project is done in ROS Noetic and Tensorflow.  
 
 [Github repository](https://github.com/riktimmers/simple_object_recognition_demo)
 
@@ -35,17 +35,24 @@ Using Point Cloud data the floor is filtered out and the remaining Point Cloud i
 
 
 ## Simple Grasping
+A simple grasping demo using a Franka Emika's Panda arm in simulation. A RGB-D camera is added to the end effector. The arm recognizes which object (a blue, red or green box) it is going to grasp and drop it in the corresponding colored bin. The dimensions and pose of the object is determined with PCL, the arm motions are computed using MoveIt. This project is done with ROS Noetic. 
+
+[Github repository](https://github.com/riktimmers/simple_manipulation_demo)
 
 {% include youtubePlayer.html id=page.grasping_demo %}
 
 
 ## Simple Motion Planning
+A simple motion planning demo using the RRT algorithm, custom Forward and Inverse Kinematics, and custom trajectory execution of the trajectory using interpolation and sending joint positions to the arm. 
+
+[Github repository](https://github.com/riktimmers/simple_manipulation_demo)
 
 {% include youtubePlayer.html id=page.motion_planning_demo %}
 
 ## Simple Planning Demo
+A simple demo to show the Dijkstra and A* planning algorithms. The visualization is done using OpenCv.  
 
-A simple demo to show the Dijkstra and A* planning algorithms. 
+[Github repository](https://github.com/riktimmers/simple_planning)
 
 ## Custom PCL Implementations 
 
