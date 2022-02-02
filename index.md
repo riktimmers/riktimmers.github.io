@@ -45,7 +45,7 @@ A simple grasping demo using a Franka Emika's Panda arm in simulation. A RGB-D c
 ## Simple Motion Planning
 A simple motion planning demo using the RRT algorithm, custom Forward and Inverse Kinematics, and custom trajectory execution of the trajectory using interpolation and sending joint positions to the arm. 
 
-[Github repository](https://github.com/riktimmers/simple_manipulation_demo)
+[Github repository](https://github.com/riktimmers/simple_motion_planning_demo)
 
 {% include youtubePlayer.html id=page.motion_planning_demo %}
 
