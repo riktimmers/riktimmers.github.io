@@ -14,6 +14,8 @@ This pages shows some demo projects related to robotics.
 * [Simple Motion Planning](#simple-motion-planning)
 * [Simple Planning Demo](#simple-planning-demo)
 * [Custom PCL Implementations](#custom-pcl-implementations)
+* [(Some) Work Projects](#some-work-projects)
+* [Work in Progress](#work-in-progress)
 
 ## Demo Project, Cleaning Table with Mobile Manipulator Platform
 
@@ -62,13 +64,22 @@ Some custom PCL function implementations for speed improvements. The custom func
 
 [Github repository](https://github.com/riktimmers/pcl_custom_functions)
 
-## Work Projects 
+## (Some) Work Projects 
+Designed a small differential drive robot. The robot has a Jetson Nano and a Teensy 3.6, two small DC motors with encoders, and an Raspberry Pi RGB Camera. 
+The robot was designed (based on the JetBot) for usage in Robotics courses for Bachelor AI students. The student can implement low level PID controllers for the velocity control 
+of the wheels, use the camera for lane following and sign recognition. Students can remotely access the robot, and visualize the camera images on their lab PCs. 
 
 <img src="./images/nano2.jpg" width="400"> <img src="./images/nano.jpg" width="400">
+
+TiaGo was used in our Robotics for AI course for Master students (it is now replaced by a smaller omni-directional drive robot). Students can perform navigation, object recognition, and grasping with TiaGo. An order was given containing which objects had to gathered, the robot than has to find the objects located on two tables and drop the objects in a box.
+TiaGo had to be made ready (on a software level) for usage in our course. This included turning off default programs that get started when TiaGo boots up, making adjustments to its URDF to avoid self-collisions, testing the complete pipeline that students had to implement, coming up with a safe method such that the arm does not collide with the table. 
 
 <img src="./images/tiago.jpg" width="400">
 
 ## Work in Progress
+Together with two Masters students (Andreea Toca and Vlad Iftime), we are working on trying to use the Panda arm to complete the tasks of the box. The box is placed at a random location and orientation. The blue button needs to be pushed, the key needs to be picked-up and inserted into the lock, and then rotated, the ethernet cable needs to be removed and plugged into the other socket, the battery box needs to be opened and the two batteries need to be removed and inserted into the battery holder, then the red buttons needs to be pushed.
+For this project we will be using Point Cloud data, Computer vision, MoveIt, and low level force/impedance controllers to try and complete the task. 
+
 <img src="./images/panda.jpg" width="400"> <img src="./images/panda2.jpg" width="400">
 
 <img src="./images/box.jpg" width="400">
