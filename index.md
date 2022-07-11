@@ -59,3 +59,14 @@ A simple demo to show the Dijkstra and A* planning algorithms. The visualization
 Some custom PCL function implementations for speed improvements. The custom functions that are implemented are clustering, passthrough and segmentation. When using all three functions the total speed-up can be about 26x faster on a Jetson Nano, to 44x faster on a Desktop/Laptop cpu. 
 
 [Github repository](https://github.com/riktimmers/pcl_custom_functions)
+
+## Work Projects 
+
+<img src="./images/nano2.jpg" width="400"> <img src="./images/nano.jpg" width="400">
+
+<img src="./images/tiago.jpg" width="400">
+
+## Work in Progress
+<img src="./images/panda.jpg" width="400"> <img src="./images/panda2.jpg" width="400">
+
+<img src="./images/box.jpg" width="400">
