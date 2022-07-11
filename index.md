@@ -6,8 +6,8 @@ motion_planning_demo: _uUmV0QUoDQ
 layout: default
 ---
 
-# Demo Projects 
-This pages shows some demo projects related to robotics.
+# Demo Projects and some work projects 
+This pages shows some demo projects related to robotics, and some project/platforms used in my current job.
 * [Demo Project, Cleaning Table with Mobile Manipulator Platform](#demo-project-cleaning-table-with-mobile-manipulator-platform)
 * [Simple Object Recognition](#simple-object-recognition)
 * [Simple Grasping](#simple-grasping)
