@@ -15,7 +15,6 @@ This pages shows some demo projects related to robotics, and some project/platfo
 * [Simple Planning Demo](#simple-planning-demo)
 * [Custom PCL Implementations](#custom-pcl-implementations)
 * [(Some) Work Projects](#some-work-projects)
-* [Work in Progress](#work-in-progress)
 
 ## Demo Project, Cleaning Table with Mobile Manipulator Platform
 
@@ -76,10 +75,3 @@ TiaGo had to be made ready (on a software level) for usage in our course. This i
 
 <img src="./images/tiago.jpg" width="400">
 
-## Work in Progress
-Together with two Masters students (Andreea Toca and Vlad Iftime), we are working on trying to use the Panda arm to complete the tasks of the box. The box is placed at a random location and orientation. The blue button needs to be pushed, the key needs to be picked-up and inserted into the lock, and then rotated, the ethernet cable needs to be removed and plugged into the other socket, the battery box needs to be opened and the two batteries need to be removed and inserted into the battery holder, then the red buttons needs to be pushed.
-For this project we will be using Point Cloud data, Computer vision, MoveIt, and low level force/impedance controllers to try and complete the task. 
-
-<img src="./images/panda.jpg" width="400"> <img src="./images/panda2.jpg" width="400">
-
-<img src="./images/box.jpg" width="400">
