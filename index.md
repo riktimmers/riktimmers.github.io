@@ -18,12 +18,14 @@ This pages shows some demo projects related to robotics, and some project/platfo
 * [(Some) Previous Work Projects](#some-work-projects)
 
 ## More detailed explanation of current work projects
-* Palletizers: 
-* Cobot cell for helping with seed treatment:
-* Cobot cell that sprays fondant on cookies: 
-* Cobot cell for emptying planks from cart in order to palletize them: 
-* Delta pickers for filling boxes and putting lids on the box: 
-* Cobot box assembler with AMR cart transport: 
+* Palletizers: Created multiple palletizers, ranging from single product, single pick and place, to multi product and multi pick and place configurations. Multi gripper options.
+* Cobot cell for helping with seed treatment: Custom build c++ API for UR10e using TCP communication and URScript. Implemented a cobot cell that help an operator with adding a treatment layer around seeds. 
+* Cobot cell that sprays fondant on cookies: UR20 and UR3 in c++, user interface in flutter/dart,  Created a two cobot cell for spraying fondant on cookies. 
+* Cobot cell for emptying planks from cart in order to palletize them: Two Doosan H2070 in c++, one user interface to control both Cobots.  A two cobot cell that empties planks from a cart and palletizes them. Barcode scanner and Database.
+* Delta pickers for filling boxes and putting lids on the box: C++ for camera interface, conveyor control, pushers and reading sensors, MQTT for communication with Wyzo Delta picker. Multi Delta pickers in one line. Added vision system for check that all products are present. Vision system for detection of tube orientation such that it can be position correct, and vision system for rotating bottle such that the label is upwards. 
+* Cobot box assembler with AGV cart transport: Doosan H2070, 3 Hik LMR, programmed in C++, flutter/dart for the UI. Cobot cell that communicates with Warehouse Management System of the customer to retreive orders, based on orders empty boxes were folded and put on empty rack. The AGV transports the cart to Pick To Light positions, once operator is done the AGV moves rack to final position. 
+* CNC Loader: UR20, programmed in URScript. Two cart setup with different profiles that need to be loaded and unloaded from a cnc machine, it also cleans leftover aluminum chips. Serial communication with computer for passing barcodes and reading status.
+
 
 
 ## Demo Project, Cleaning Table with Mobile Manipulator Platform
