@@ -7,7 +7,8 @@ layout: default
 ---
 
 # Demo Projects and some work projects 
-This pages shows some demo projects related to robotics, and some project/platforms used in my current job.
+This pages shows some demo projects related to robotics, and some project/platforms used in my previous and current job.
+* [More detailed explanation of current work projects](#more-detailed-explanation-current-work-projects)
 * [Demo Project, Cleaning Table with Mobile Manipulator Platform](#demo-project-cleaning-table-with-mobile-manipulator-platform)
 * [Simple Object Recognition](#simple-object-recognition)
 * [Simple Grasping](#simple-grasping)
@@ -15,6 +16,15 @@ This pages shows some demo projects related to robotics, and some project/platfo
 * [Simple Planning Demo](#simple-planning-demo)
 * [Custom PCL Implementations](#custom-pcl-implementations)
 * [(Some) Work Projects](#some-work-projects)
+
+## More detailed explanation of current work projects
+* Palletizers: 
+* Cobot cell for helping with seed treatment:
+* Cobot cell that sprays fondant on cookies: 
+* Cobot cell for emptying planks from cart in order to palletize them: 
+* Delta pickers for filling boxes and putting lids on the box: 
+* Cobot box assembler with AMR cart transport: 
+
 
 ## Demo Project, Cleaning Table with Mobile Manipulator Platform
 
