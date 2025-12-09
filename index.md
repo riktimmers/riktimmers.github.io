@@ -8,14 +8,14 @@ layout: default
 
 # Demo Projects and some work projects 
 This pages shows some demo projects related to robotics, and some project/platforms used in my previous and current job.
-* [More detailed explanation of current work projects](#more-detailed-explanation-current-work-projects)
+* [More Detailed Explanation of Current Work Projects](#more-detailed-explanation-current-work-projects)
 * [Demo Project, Cleaning Table with Mobile Manipulator Platform](#demo-project-cleaning-table-with-mobile-manipulator-platform)
 * [Simple Object Recognition](#simple-object-recognition)
 * [Simple Grasping](#simple-grasping)
 * [Simple Motion Planning](#simple-motion-planning)
 * [Simple Planning Demo](#simple-planning-demo)
 * [Custom PCL Implementations](#custom-pcl-implementations)
-* [(Some) Work Projects](#some-work-projects)
+* [(Some) Previous Work Projects](#some-work-projects)
 
 ## More detailed explanation of current work projects
 * Palletizers: 
