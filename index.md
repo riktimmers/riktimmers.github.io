@@ -18,7 +18,7 @@ This pages shows some demo projects related to robotics, and some project/platfo
 * [(Some) Previous Work Projects](#some-work-projects)
 
 ## More detailed explanation of current work projects
-* Palletizers: Created multiple palletizers, ranging from single product, single pick and place, to multi product and multi pick and place configurations. Multi gripper options.
+* Palletizers: Created multiple palletizers, ranging from single product, single pick and place, to multi product and multi pick and place configurations. Multiple grippers.
 * Cobot cell for helping with seed treatment: Custom build c++ API for UR10e using TCP communication and URScript. Implemented a cobot cell that help an operator with adding a treatment layer around seeds. 
 * Cobot cell that sprays fondant on cookies: UR20 and UR3 in c++, user interface in flutter/dart,  Created a two cobot cell for spraying fondant on cookies. 
 * Cobot cell for emptying planks from cart in order to palletize them: Two Doosan H2070 in c++, one user interface to control both Cobots.  A two cobot cell that empties planks from a cart and palletizes them. Barcode scanner and Database.
