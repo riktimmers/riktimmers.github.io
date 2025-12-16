@@ -1,4 +1,6 @@
 ---
+title: Current status
+nav_order: 1
 alice_demo: EpUChtHsAVo
 object_recognition: h9DArHZGUMo
 grasping_demo: FecQbV2rejo
