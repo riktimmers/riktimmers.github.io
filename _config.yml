@@ -1,7 +1,8 @@
 title: Resume Example Projects and (Some) Work projects
 description: Some projects made by Rik Timmers
 #theme: jekyll-theme-midnight
-theme: just-the-docs
+#theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # Enable search
 search_enabled: true
