@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
