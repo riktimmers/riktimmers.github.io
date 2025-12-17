@@ -5,7 +5,7 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 300px;
   background-color: #333;
   color: white;
   height: 100vh;
@@ -27,6 +27,16 @@ body {
 
 .main-content {
   flex-grow: 1;
-  padding: 20px;
+  text-align: center;
+  background-color: #444;
+  color: white;
 }
+
+.main-content p {
+    max-width: 100ch;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 

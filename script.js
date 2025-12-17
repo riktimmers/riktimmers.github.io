@@ -13,6 +13,6 @@ function loadSection(file) {
     });
 }
 
-// Load home by default
-loadSection('home.html');
+// Load introduction by default
+loadSection('introduction.html');
 
