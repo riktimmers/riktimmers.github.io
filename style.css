@@ -6,7 +6,7 @@ body {
 
 .sidebar {
   width: 300px;
-  background-color: #333;
+  background-color: Black;
   color: white;
   height: 100vh;
   padding-top: 20px;
@@ -28,7 +28,7 @@ body {
 .main-content {
   flex-grow: 1;
   text-align: center;
-  background-color: #444;
+  background-color: #2d2d4b;
   color: white;
 }
 
